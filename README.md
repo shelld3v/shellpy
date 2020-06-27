@@ -1,4 +1,4 @@
-## Shellcat
+## Shellpy
 A computer networking utility for create shell from or connect shell to servers. 
 This is the best, simplest, smallest, easiest and friendliest tool that can support
 enough basic features for remote shell. Athough the options still less and simple, but if 
@@ -6,15 +6,15 @@ Github community likes this tool, I will grow this more with more features and c
 work.
 
 ## Usage
-Bind shell: `python[3] pysh.py PORT`  
-Reverse shell: `python[3] pysh.py HOST PORT`
+Bind shell: `python[3] sp.py PORT`  
+Reverse shell: `python[3] sp.py HOST PORT`
 
 ## UI
 #### Bind:
 ```shell
-shelld3v@sh1:~$ python pysh.py 4242
+shelld3v@sh1:~$ python sp.py 4242
 Listening on 4242 ...
-Connected from 127.0.0.1 to [0.0.0.0] 4244
+Connected from 127.0.0.1 to [0.0.0.0] 4242
 ```
 ```shell
 shelld3v@sh2:~$ nc 127.0.1 4242
@@ -40,7 +40,7 @@ phprce.py
 richfaces-elinjection.py
 wordpress9978.py
 sh-1.0$ uname -a
-Linux sh2 4.4.0-17763-Microsoft #1217-Microsoft Mon May 05 16:09:00 PST 2020 x86_64 GNU/Linux
+Linux sh1 4.4.0-17763-Microsoft #1217-Microsoft Mon May 05 16:09:00 PST 2020 x86_64 GNU/Linux
 sh-1.0$ w
  20:09:33 up  3:32,  0 users,  load average: 0.52, 0.58, 0.59
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
@@ -49,7 +49,7 @@ exit
 ```
 #### Reverse:
 ```shell
-shelld3v@sh1:~$ python pysh.py 127.0.1 4242
+shelld3v@sh1:~$ python sp.py 127.0.1 4242
 Connected from 0.0.0.0 to [127.0.0.1] 4242
 ```
 ```shell
